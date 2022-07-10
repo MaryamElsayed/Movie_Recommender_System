@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gp_rasta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GP_Rasta"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".collaborative_recommend"
+            android:exported="false" />
+        <activity
+            android:name=".add_or_delete"
+            android:exported="false" />
+        <activity
+            android:name=".deleteMovie"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".adminOrUser"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAct"
+            android:exported="false" />
+        <activity
+            android:name=".RecommendedMovie"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".Forget_Password"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

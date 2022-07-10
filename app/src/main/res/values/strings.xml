@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GP_Rasta</string>
+    <string-array name="movie_genere">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Fantasy</item>
+        <item>Science Fiction</item>
+        <item>Crime</item>
+        <item>Drama</item>
+        <item>Thriller</item>
+        <item>Animation</item>
+        <item>Family</item>
+        <item>Western</item>
+        <item>Comedy</item>
+        <item>Romance</item>
+        <item>Western</item>
+        <item>Mystery</item>
+        <item>Horror</item>
+    </string-array>
+</resources>

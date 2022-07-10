@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/drawable-v24/btn_style2.xml" value="0.1515" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/drawable/btn_style3.xml" value="0.1515" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2005" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_add_or_delete.xml" value="0.10740740740740741" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_admin.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_admin_login.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_admin_or_user.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_collaborative_recommend.xml" value="0.152" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_delete_movie.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_feedback.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_forget_password.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_main.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_recommended_movie.xml" value="0.152" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_recommended_movies_user_entry.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_survey.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/activity_test.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/layout/listview_activity.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/GP_Rasta/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

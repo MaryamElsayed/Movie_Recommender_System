@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_background"
+    tools:context=".collaborative_recommend"
+    android:orientation="horizontal">
+
+
+
+    <TextView
+        android:id="@+id/textView_col"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:text="Recommended For You"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logout"
+         />
+
+    <TextView
+        android:id="@+id/content_based"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="90dp"
+        android:text="OR SEARCH FOR A MOVIE"
+        android:textColor="#CA965C"
+        android:textSize="25dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_col"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-370dp"
+        android:layout_marginTop="170dp" />
+
+</LinearLayout>

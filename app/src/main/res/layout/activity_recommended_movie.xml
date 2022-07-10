@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/spiderman_background"
+    tools:context=".RecommendedMovie">
+
+
+    <EditText
+        android:id="@+id/txtField_message"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:hint="Enter Movie"
+        android:textColorHint="#BAF9F9F9"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="232dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="88dp"
+        android:background="@drawable/btn_style"
+        android:text="Show Recommended Movies"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"/>
+
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

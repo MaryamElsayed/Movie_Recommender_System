@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".deleteMovie">
+
+    <EditText
+        android:id="@+id/id_txt"
+        android:layout_width="383dp"
+        android:layout_height="43dp"
+        android:hint="movie ID"
+        android:textColorHint="#BAF9F9F9"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/d_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="56dp"
+        android:background="@drawable/btn_style"
+        android:text="Remove"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_txt"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
